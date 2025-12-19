@@ -1,0 +1,105 @@
+# Note: Template blocks require a 'weight' parameter so they're correctly ordered on the landing page
+
+# Hero
+hero:
+  enable: true
+  weight: 10
+  template: hero
+
+  backgroundImage:
+    path: "images/templates/hero"
+    filename:
+      desktop: "gradient-desktop.webp"
+      mobile: "gradient-mobile.webp"
+
+  badge:
+    text: v0.1.0
+    color: primary # primary, secondary, success, danger, warning, info, light, dark
+    pill: false # boolean
+    soft: true # boolean
+
+  title: "Technical notes compilation"
+  subtitle: "Technical notes on Linux, Kubernetes, and Go. Most of the content stems from real-world issues, troubleshooting sessions, and technical summaries from production environments. I document these solutions for my own reference and share them here in hopes they might be useful to others facing similar challenges."
+
+  image:
+    path: "images" # path to image under configured assets directory. default 'images'
+    filename: "lotus_docs_screenshot.png" # filename of your hero image (including file extension)
+    alt: "Lotus Docs Screenshot" # Optional but recommended
+    boxShadow: true # default 'false' (excludes .svg images)
+    rounded: true # round the image corners? default 'false' (excludes .svg images)
+
+  ctaButton:
+    icon: library_books
+    btnText: "Wiki"
+    url: "/docs/"
+  cta2Button:
+    icon: code
+    btnText: "View On Github"
+    url: "https://github.com/lipaysamart/wiki"
+
+  info: "**Open Source** Apache-2.0 Licensed."
+
+featureGrid:
+  enable: true
+  weight: 20
+  template: feature grid
+
+  title: Direction Struct
+  subtitle: Lotus Docs is a highly configurable Hugo documentation theme. Yet, with the default configuration you can deploy and publish your documentation site in a matter of minutes. Check out some core features below.
+
+  items:
+    - title: Linux
+      icon: terminal
+      description: Focused on Linux system tuning, kernel configuration, and network troubleshooting. Records of production-level tool practices and performance bottleneck analysis.
+
+    - title: Kubernetes
+      icon: layers
+      description: Records of Kubernetes cluster management, resource debugging, and container orchestration. Covers service discovery, persistent storage, and cluster security troubleshooting.
+
+    - title: DevOps
+      icon: code
+      description: Documentation of CI/CD pipelines, Infrastructure as Code (IaC), and observability. Focused on automation toolchains and delivery process optimization.
+
+# Image compare
+imageCompare:
+  enable: true
+  weight: 30
+  template: image compare
+
+  title: "About The Site Architecture"
+  subtitle: "This site is built using the Hugo static site generator with the Lotus Docs theme. Thanks to the Hugo community for their fast build support and Colin Wilson for designing the clean architecture of Lotus Docs. These open-source tools enable efficient presentation of production troubleshooting records and technical knowledge."
+
+  items:
+    - title: About Hugo
+      config: {
+        startingPoint: 50,
+        addCircle: true,
+        addCircleBlur: false,
+        showLabels: true,
+        labelOptions: {
+          before: 'Dark',
+          after: 'Light',
+          onHover: false
+        }
+      }
+
+      imagePath: "images/screenshots"
+      imageBefore: "lotusdocs_dark_v0.8.webp"
+      imageAfter: "lotusdocs_light_v0.8.webp"
+
+    - title: About Lotus Docs
+      config: {
+        controlColor: "#3C4257",
+        startingPoint: 25,
+        addCircle: true,
+        addCircleBlur: false,
+        showLabels: true,
+        labelOptions: {
+          before: 'Inter',
+          after: 'Life Saver',
+          onHover: false
+        }
+      }
+      imagePath: "images/screenshots"
+      imageBefore: "lotusdocs_google_font_demo_inter_screenshot.webp"
+      imageAfter: "lotusdocs_google_font_demo_lifesavers_screenshot.webp"
