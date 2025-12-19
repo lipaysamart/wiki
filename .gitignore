@@ -8,3 +8,6 @@ vendor/
 .bundle/
 .hugo_build.lock
 api/img.md
+
+public
+resources
