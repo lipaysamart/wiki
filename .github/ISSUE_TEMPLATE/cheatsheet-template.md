@@ -8,9 +8,8 @@ assignees: ''
 ---
 
 ---
-- metadata:
-  - title:
-  - date:
-  - draft
+## Metadata
+- Title:
+- Version:
 
-## Common
+## Director
