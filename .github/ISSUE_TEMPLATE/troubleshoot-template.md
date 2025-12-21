@@ -8,10 +8,10 @@ assignees: ''
 ---
 
 ---
-- metadata
-  - title:
-  - date:
-  - draft: 
+## Metadata
+  - Title:
+  - Description:
+  - Version:
 
 ## Context
 
