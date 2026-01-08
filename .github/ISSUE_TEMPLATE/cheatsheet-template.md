@@ -3,13 +3,11 @@ name: Cheatsheet-Template
 about: Command Cheat Sheet.
 title: "[Cheatsheet]"
 labels: Cheatsheet
-assignees: ''
-
+assignees: ""
 ---
 
 ---
-## Metadata
-- Title:
-- Version:
+
+## Context
 
 ## Director

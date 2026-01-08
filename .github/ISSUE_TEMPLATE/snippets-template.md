@@ -1,10 +1,9 @@
 ---
 name: Snippets-Template
 about: Record commonly used code snippets.
-title: ''
+title: ""
 labels: Snippets
-assignees: ''
-
+assignees: ""
 ---
 
 ## Use Cases

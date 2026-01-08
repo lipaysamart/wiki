@@ -62,7 +62,7 @@ featureGrid:
 
 # Image compare
 imageCompare:
-  enable: true
+  enable: false
   weight: 30
   template: image compare
 
@@ -71,4 +71,6 @@ imageCompare:
 
   items:
     - title: About Hugo
+      url: "https://gohugo.io/"
     - title: About Lotus Docs
+      url: "https://lotusdocs.dev/"
