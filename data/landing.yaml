@@ -19,7 +19,7 @@ hero:
     soft: true # boolean
 
   title: "Technical notes compilation"
-  subtitle: "Technical notes on Linux, Kubernetes, and Go. Most of the content stems from real-world issues, troubleshooting sessions, and technical summaries from production environments. I document these solutions for my own reference and share them here in hopes they might be useful to others facing similar challenges."
+  subtitle: "Most of the content stems from real-world issues, troubleshooting sessions, and technical summaries from production environments. I document these solutions for my own reference and share them here in hopes they might be useful to others facing similar challenges"
 
   image:
     path: "images" # path to image under configured assets directory. default 'images'
@@ -45,7 +45,7 @@ featureGrid:
   template: feature grid
 
   title: Direction Struct
-  subtitle: Lotus Docs is a highly configurable Hugo documentation theme. Yet, with the default configuration you can deploy and publish your documentation site in a matter of minutes. Check out some core features below.
+  subtitle: "Technical notes on Linux, Kubernetes, and Go. "
 
   items:
     - title: Linux

@@ -1,6 +1,6 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://wiki.homelab-dev.com'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Technical notes'
 
 [module]
     [[module.imports]]
