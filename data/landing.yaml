@@ -58,7 +58,19 @@ featureGrid:
 
     - title: DevOps
       icon: code
-      description: Documentation of CI/CD pipelines, Infrastructure as Code (IaC), and observability. Focused on automation toolchains and delivery process optimization.
+      description: Documentation of Hashicorp stack (Terraform, Vault, Consul, Nomad) best practices, and development practices with Golang and TypeScript ecosystems.
+
+    - title: DBA
+      icon: database
+      description: Database administration, optimization, maintenance and troubleshooting experiences. Covering performance tuning, backup/recovery, scaling strategies and SQL optimization.
+
+    - title: Observability
+      icon: visibility
+      description: Comprehensive logging, metric collection, distributed tracing setup and monitoring system implementation. Focus on debugging distributed systems and performance analysis.
+
+    - title: CI/CD
+      icon: sync
+      description: Continuous integration and deployment pipeline configurations. Practices for automated testing, build processes, and deployment strategies.
 
 # Image compare
 imageCompare:
